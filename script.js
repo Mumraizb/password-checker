@@ -9,10 +9,13 @@ function check(){
      else if(pass =="babar123"){
      let result= "Your password is correct!!"
      document.getElementById("result").innerText = result;
+     document.getElementById("result").style.color = "green";
+
      document.getElementById("empty").style.display= "none";
      }else{
          let result1= "Your password is incorrect!!"
          document.getElementById("result").innerText= result1;
+         document.getElementById("result").style.color = "red";
          document.getElementById("empty").style.display= "none";
 
      }
