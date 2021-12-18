@@ -1,0 +1,45 @@
+/*div#fields {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+#input {
+    padding: 6px;
+    border-radius: 15px;
+    width: auto;
+}
+div#button {
+    text-align: center;
+    margin-top: 20px;
+}
+#check {
+    padding: 8px;
+    background-color: black;
+    color: wheat;
+    border-radius: 15px;
+    width: auto;
+    cursor: pointer;
+
+}
+#check:hover{
+    background-color: green;
+    color: black;
+}
+*/
+
+div#fields {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div#password {margin-top: 300px;}
+
+input#input {
+    margin: 20px;
+}
+
+input#check {
+    border: 3px solid black;
+    cursor: pointer;
+}
