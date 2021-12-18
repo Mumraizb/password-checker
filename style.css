@@ -33,10 +33,14 @@ div#fields {
     text-align: center;
 }
 
-div#password {margin-top: 300px;}
+div#password {
+    margin-top: 300px;
+
+}
 
 input#input {
     margin: 20px;
+    padding: 10px;
 }
 
 input#check {
